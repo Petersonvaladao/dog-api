@@ -1,0 +1,14 @@
+.container {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.btn {
+  margin-top: 1em;
+  font-size: 2rem;
+  cursor: pointer;
+  border: none;
+  background-color: aqua;
+  padding: 10px;
+}

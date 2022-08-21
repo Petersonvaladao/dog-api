@@ -16,7 +16,11 @@ getDog(url).then (data => {
   `<img class="img" src="${dog}" alt="">`;
 });
 
-btn.addEventListener("click", getDog);
+function reload () {
+  return window.location.reload()
+}
+
+btn.addEventListener("click", reload);
 
 
 
